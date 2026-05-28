@@ -1,0 +1,37 @@
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+
+    <!-- Wi-Fi Profile Name (must match SSID) -->
+    <name>BlueMatrix</name>
+
+    <SSIDConfig>
+        <SSID>
+            <!-- Wi-Fi SSID -->
+            <name>BlueMatrix</name>
+        </SSID>
+    </SSIDConfig>
+
+    <connectionType>ESS</connectionType>
+    <connectionMode>auto</connectionMode>
+
+    <MSM>
+        <security>
+
+            <authEncryption>
+                <authentication>WPA2PSK</authentication>
+                <encryption>AES</encryption>
+                <useOneX>false</useOneX>
+            </authEncryption>
+
+            <sharedKey>
+                <keyType>passPhrase</keyType>
+
+                <!-- Wi-Fi Password (CHANGE THIS) -->
+                <protected>false</protected>
+                <keyMaterial>PASSWORD</keyMaterial>
+
+            </sharedKey>
+
+        </security>
+    </MSM>
+
+</WLANProfile>
