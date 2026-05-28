@@ -20,7 +20,7 @@ The lab includes:
 
 ## Important (Before Using XML Profile)
 
-Before importing the XML file, the following values must be updated based on your Wi-Fi network:
+Before importing the XML file, the following values must be updated based on the Wi-Fi network:
 
 ### 1. Wi-Fi Name (SSID)
 Change ALL occurrences of:
@@ -29,7 +29,7 @@ Change ALL occurrences of:
 BlueMatrix
 ```
 
-to your actual Wi-Fi network name.
+to the Wi-Fi network name.
 
 ---
 
@@ -41,13 +41,13 @@ Update this field:
 <keyMaterial>28:06:42:12</keyMaterial>
 ```
 
-Replace with your actual Wi-Fi password.
+Replace with actual Wi-Fi password.
 
 ---
 
 ### 3. Profile Name
 
-This must match your SSID:
+This must match SSID:
 
 ```text id="xml_change3"
 <name>BlueMatrix</name>
